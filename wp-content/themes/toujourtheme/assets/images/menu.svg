@@ -1,0 +1,7 @@
+<svg id="menu_copy" data-name="menu copy" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+  <g id="Group">
+    <rect id="Rectangle" width="24" height="2" fill="#260600"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="24" height="2" transform="translate(0 8)" fill="#260600"/>
+    <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="24" height="2" transform="translate(0 16)" fill="#260600"/>
+  </g>
+</svg>

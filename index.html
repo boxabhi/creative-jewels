@@ -99,11 +99,24 @@
   <!--<button class="menu-button " id="open-button"></button>-->
   <!-- Navigation end -->
 
+  <style>
+    .fill{
+      width: 100%;
+    height: 100%;
+    }
+    @media only screen and (max-width: 600px) {
+      .fill {
+        padding-top: 50px !important;
+        width: 100%;
+    height: 100%;
+  }
+}
+  </style>
 
   <!-- Slider start -->
   <header id="home_slider" class="home_slider_top carousel slide" style="background-color: brown;">
 
-    <div class="fill" style="background-image:url('page-min.png');padding-top: 40px;"></div>
+    <div class="fill" style="background-image:url('page-min.png'); ;"></div>
 
     <div class="fill_mask">
       <div class="description">
@@ -152,11 +165,13 @@
          <div class="centred">
            <div class="news_description">
              
-             <h3 class="welcomeh3 text-center vibe">About The Baker</h3>
+             <h3 class="welcomeh3 text-center vibe">About The <b>
+               Creative Jewels
+             </b></h3>
            
           
             
-      <p class=" text-justify">
+      <p class=" text-fluid" style="margin-left: -30px !important;margin-right: -30px;">
         Whether wishing a birthday, wedding-anniversary, house-warming ceremony, newborn’s arrival, health or want to
         show gratitude by giving a personalized return gift, what better way than to say it with the sweetness of
         chocolates, cookies, donuts and cakes!
@@ -178,19 +193,11 @@
      </div>
    </div>
  
-  <div id="news" class="photo_carousel carousel slide">
-    <!-- Wrapper for Slides -->
-    <div class="carousel-inner carousel-touch">
-
-
-    </div>
-
-  </div>
-  <!-- End News -->
+ 
 
 
   <!-- Welcome section end -->
-  <div class="tab-content" style="background-color: antiquewhite !important;">
+  <div class="tab-content" style="margin-top:40px;background-color: antiquewhite !important;">
     <!-- Restaurant -->
     <div id="menu">
     </div>
@@ -753,10 +760,12 @@
         
         </div>
       </div>
+</div>
+</div>
 
 
-      <div class="contact_form">
-        <form id="reservation_form" action="#">
+      <div class="contact_form" >
+        <form id="reservation_form" action="#" style="margin: 0px auto;">
           <div class="reservation">
             <input type="hidden" name="action" value="sendbooking">
             <input name="first_name" type="text" placeholder="First Name">
